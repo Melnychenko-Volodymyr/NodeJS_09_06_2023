@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Перегляд та додавання авторів</title>
+	<link rel="stylesheet" type="text/css" href="./style/add_author.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.6/axios.js" integrity="sha512-//dh2f858Fr7wqGN0IrKqOwzFRMSNDFepYnq0R0Nau+vpQRaUYwViFi7KVniyCALFPOaaMd1n38d5q0pboHjUw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+	<div class="header">
+		<a href="/">Перегляд статей</a>
+		<a href="/add_article/">Введення нової статті</a>
+	</div>
+	<h2>СПИСОК  АВТОРІВ :</h2>
+	<div class="container"></div>		
+	<h2>ВВЕДЕННЯ НОВОГО АВТОРА :</h2>
+    <div class="cont2">
+    	<input type="text" class="input" placeholder="Автор">   
+    	<button class="button">Додати</button>
+	</div>
+	<h2>КОРИГУВАННЯ АВТОРА :</h2>
+	<div class="cont3">
+		<select class="select"></select>
+    	<input type="text" class="input1" placeholder="Новий автор">   
+    	<button class="button1">Змінити</button>
+	</div>
+
+	<script src="/js/add_author.js"></script>
+	
+</body>		
+</html>
